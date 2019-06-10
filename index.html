@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class=" js csstransitions">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CTOC</title>
+<script type="text/javascript" src="./CTOC/FWDUltimate3DCarousel.js.download"></script>
+<link rel="shortcut icon" type="image/png" href="CTOC/favicon.ico"/>
+<style>
+
+/* Create two equal columns that floats next to each other */
+.firstcolumn {
+  float: left;
+  width: 100%;
+  padding-top: 10px;
+   padding-bottom: 10px;
+ 
+}
+
+.secondcolumn {
+  float: right;
+  width: 100%;
+  padding-top: -80px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.button {
+  background-color: #00b1bf;
+  margin-left:30px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.zoom {
+  transition: transform .2s;  
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+}
+.carousel
+{
+width:100%;
+height:100%;
+}
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+</style>
+<script>
+function redirect()
+{
+	window.open("https://ctocuk.cyient.com:4490/LoginPage.do");
+}
+
+</script>
+
+</head>
+
+<body>			
+<div class="">
+
+
+			<div class="fadein-slider"></div> 
+			
+			<div class="">
+			
+			
+			<div class="row">
+			 <div class="firstcolumn">
+			 <img src="CTOC/logo.png" onclick="redirect()"></img>
+			<button class="button" style="font-family:cyient medium;float: right;margin-right:25px" onclick="redirect()">Demo</button>
+			 </div>
+	<div class="secondcolumn"><script type="text/javascript">			
+			document.addEventListener('DOMContentLoaded', function(event) {
+				FWDRLU3DCUtils.checkIfHasTransofrms();
+				window.fwdu3dcar0 = new FWDUltimate3DCarousel(
+				{
+					//required settings
+					carouselHolderDivId:'fwdu3dcarDiv0',
+					carouselDataListDivId:'fwdu3dcarPlaylistCyient', 
+					displayType:'fluidWidth',
+					autoScale:'yes',
+					carouselWidth:840,
+					carouselHeight:538,
+					mainFolderPath:'http://www.lyonbarstools.com/wp-content/plugins/fwdu3dcar/load',
+					skinPath:'skin_modern_silver',
+					
+					//main settings
+					backgroundColor:'#dddddd',
+					backgroundImagePath:'',
+					thumbnailsBackgroundImagePath:'CTOC/thumbnailsBackground.jpg',
+					scrollbarBackgroundImagePath:'CTOC/small-2-collage.png',
+					backgroundRepeat:'repeat-x',
+					carouselStartPosition:'center',
+					carouselTopology:'star',
+					carouselXRadius:647,
+					carouselYRadius:98,
+					carouselXRotation:3,
+					carouselYOffset:-24,
+					showCenterImage:'no',
+					centerImagePath:'CTOC/CTOCLogo.png',
+					centerImageYOffset:0,
+					showDisplay2DAlways:'no',
+					
+					autoplay:'yes',
+					slideshowDelay:3000,
+					rightClickContextMenu:'default',
+					addKeyboardSupport:'yes',
+					useDragAndSwipe:'yes',
+					showLargeNextAndPrevButtons:'no',
+					largeNextAndPrevButtonsOffest:'15',					
+					fluidWidthZIndex:1,
+					thumbnailWidth:500,
+					thumbnailHeight:301,
+					thumbnailBorderSize:0,
+					thumbnailMinimumAlpha:0.5,		
+					thumbnailBackgroundColor:'#97cee3',
+					thumbnailBorderColor1:'#fcfdfd',
+					thumbnailBorderColor2:'#e4e4e4',
+					transparentImages:'no',
+					maxNumberOfThumbnailsOnMobile:13,
+					showThumbnailsGradient:'yes',
+					showThumbnailsHtmlContent:'no',
+					showText:'no',
+					textBackgroundColor:'#eef7f9',
+					textBackgroundOpacity:1,
+					showTextBackgroundImage:'yes',
+					showFullTextWithoutHover:'no',
+					showThumbnailBoxShadow:'no',
+					thumbnailBoxShadowCss:'0px 2px 2px #555555',
+					showReflection:'yes',
+					reflectionHeight:60,
+					reflectionDistance:1,
+					reflectionOpacity:0.3,showBulletsNavigation:'no',
+					bulletsBackgroundNormalColor1:'#fcfdfd',
+					bulletsBackgroundNormalColor2:'#e4e4e4',
+					bulletsBackgroundSelectedColor1:'#000000',		
+					bulletsBackgroundSelectedColor2:'#666666',
+					bulletsShadow:'0px 0px 4px #888888',
+					bulletsNormalRadius:'7',
+					bulletsSelectedRadius:'8',
+					spaceBetweenBullets:16,
+					bulletsOffset:14,
+					controlsMaxWidth:940,
+					controlsHeight:31,
+					controlsPosition:'bottom',
+					showPrevButton:'no',
+					showNextButton:'no',
+					disableNextAndPrevButtonsOnMobile:'no',
+					showSlideshowButton:'yes',
+					slideshowTimerColor:'#777777',
+					showScrollbar:'no',
+					scrollbarHandlerWidth:300,
+					scrollbarTextColorNormal:'#777777',
+					scrollbarTextColorSelected:'#000000',
+					disableScrollbarOnMobile:'yes',
+					enableMouseWheelScroll:'yes',
+					comboBoxPosition:'topright',
+					selectorBackgroundNormalColor1:'#fcfdfd',
+					selectorBackgroundNormalColor2:'#e4e4e4',
+					selectorBackgroundSelectedColor1:'#a7a7a7',
+					selectorBackgroundSelectedColor2:'#8e8e8e',
+					selectorTextNormalColor:'#8b8b8b',
+					selectorTextSelectedColor:'#ffffff',
+					buttonBackgroundNormalColor1:'#e7e7e7',
+					buttonBackgroundNormalColor2:'#e7e7e7',
+					buttonBackgroundSelectedColor1:'#a7a7a7',
+					buttonBackgroundSelectedColor2:'#8e8e8e',
+					buttonTextNormalColor:'#000000',
+					buttonTextSelectedColor:'#ffffff',
+					comboBoxShadowColor:'#000000',
+					comboBoxHorizontalMargins:12,
+					comboBoxVerticalMargins:12,
+					comboBoxCornerRadius:0,buttonsAlignment:'in',
+					itemBoxShadow:'none',
+					descriptionWindowAnimationType:'opacity',
+					descriptionWindowPosition:'bottom',
+					slideShowAutoPlay:'no',
+					addKeyboardSupport:'no',
+					showCloseButton:'no',
+					showZoomButton:'yes',
+					showShareButton:'yes',
+					showSlideShowButton:'no',
+					showSlideShowAnimation:'no',
+					showNextAndPrevButtons:'no',
+					showNextAndPrevButtonsOnMobile:'yes',
+					showDescriptionButton:'yes',
+					showDescriptionByDefault:'no',
+					videoShowFullScreenButton:'yes',
+					videoAutoPlay:'no',
+					nextVideoOrAudioAutoPlay:'no',
+					videoLoop:'no',
+					audioAutoPlay:'no',
+					audioLoop:'no',
+					backgroundOpacity:0.9,
+					descriptionWindowBackgroundOpacity:1.95,
+					buttonsHideDelay:5,
+					slideShowDelay:5,
+					defaultItemWidth:640,
+					defaultItemHeight:480,
+					itemOffsetHeight:50,
+					spaceBetweenButtons:1,
+					buttonsOffsetIn:2,
+					buttonsOffsetOut:5,
+					itemBorderSize:0,
+					itemBorderRadius:0,
+					itemBorderColor1:'#fcfdfd',
+					itemBorderColor2:'#e4e4e4',
+					lightBoxBackgroundColor:'#000000',
+					descriptionWindowBackgroundColor:'#ffffff',
+					videoPosterBackgroundColor:'#0099ff',
+					videoControllerBackgroundColor:'#ffffff',
+					audioControllerBackgroundColor:'#ffffff',
+					timeColor:'#000000'
+				})
+			});
+		</script>
+		<div id="fwdu3dcarDiv0" style="height: 900px; width:20px;"></div>
+			<ul id="fwdu3dcarPlaylistCyient" style="display: none;">
+				<ul class="zoom" data-cat="">
+					<ul><li data-url="CTOC/CTOCAAU.PNG" data-target="" data-poster-path="" data-width="1000" data-height="600"></li><li data-thumbnail-path="CTOC/CTOCAAU.PNG"></li> <li data-thumbnail-text="" data-thumbnail-text-title-offset="35" data-thumbnail-text-offset-top="10" data-thumbnail-text-offset-bottom="7"><p><strong>AAU 2.0</strong></p></li></ul>
+					<ul><li data-url="CTOC/CTOCModules.PNG" data-target="_blank" data-poster-path="" data-width="" data-height=""></li><li data-thumbnail-path="CTOC/CTOCModules.PNG"> </li><li  data-thumbnail-text="" data-thumbnail-text-title-offset="35" data-thumbnail-text-offset-top="10" data-thumbnail-text-offset-bottom="7"><p><strong>CTOC Modules</strong></p></li></ul>
+					<ul><li data-url="CTOC/CTOCMaps.PNG" data-poster-path="" data-width="" data-height=""></li><li data-thumbnail-path="CTOC/CTOCMaps.PNG" ><li data-thumbnail-text="" data-thumbnail-text-title-offset="35" data-thumbnail-text-offset-top="10" data-thumbnail-text-offset-bottom="7"><strong>Maps</strong></li></ul>
+					<ul><li data-url="link:https://ctocuk.cyient.com:4490/LoginPage.do?target=_blank" data-poster-path="" data-width="" data-height=""></li><li data-thumbnail-path="CTOC/CTOCLogo.png" ></li><li data-thumbnail-text="" data-thumbnail-text-title-offset="35" data-thumbnail-text-offset-top="10" data-thumbnail-text-offset-bottom="7"><p>CTOC</p></li></ul>
+					<ul><li data-url="CTOC/CTOCFeatures.PNG" data-target="_blank" data-poster-path="" data-width="" data-height=""></li><li data-thumbnail-path="CTOC/CTOCFeatures.PNG"> </li><li data-thumbnail-text="" data-thumbnail-text-title-offset="35" data-thumbnail-text-offset-top="10" data-thumbnail-text-offset-bottom="7"><p><strong>CTOC Features</strong></p></li></ul>
+					<ul><li data-url="CTOC/CTOCModel_front.jpg" data-target="_blank" data-poster-path="" data-width="" data-height=""></li><li data-thumbnail-path="CTOC/CTOCModel.gif" ></li><li data-thumbnail-text="" data-thumbnail-text-title-offset="35" data-thumbnail-text-offset-top="10" data-thumbnail-text-offset-bottom="7"><p><strong>Features</strong></p></li></ul>
+					<ul><li data-url="CTOC/modelSolution.PNG" data-target="_blank" data-poster-path="" data-width="" data-height=""></li><li data-thumbnail-path="CTOC/modelSolution.PNG" ></li><li data-thumbnail-text="" data-thumbnail-text-title-offset="35" data-thumbnail-text-offset-top="10" data-thumbnail-text-offset-bottom="7"><p><strong>Model Solution</strong></p></li></ul>
+				</ul>
+			</ul>
+		</div><div class="clear"></div></div>
+</div>
+
+</div>
+
+
+</body></html>
+
+
+
